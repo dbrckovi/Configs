@@ -1,0 +1,9 @@
+[[language]]
+name = "d"
+language-servers = ["serve-d"]
+formatter = { command = "dfmt" }
+auto-format = true
+
+[[language]]
+name = "c-sharp"
+indent = { tab-width = 2, unit = "  " }
