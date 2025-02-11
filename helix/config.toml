@@ -1,3 +1,4 @@
+#try this: https://github.com/helix-editor/helix/issues/3367
 theme = "brc_vs"
 
 [editor]
