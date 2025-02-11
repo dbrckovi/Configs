@@ -1,3 +1,5 @@
+theme = "brc_vs"
+
 [editor]
 true-color = true
 line-number = "relative"
@@ -13,6 +15,8 @@ k = "move_visual_line_down"
 l = "move_char_right"
 i = "move_visual_line_up"
 h = "insert_mode"
+"A-i" = "page_up"
+"A-k" = "page_down"
 
 [keys.select]
 j = "move_char_left"
