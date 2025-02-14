@@ -25,7 +25,7 @@ character = "│" # ╎ ┆ ╏ ┊ │
 skip-levels = 1
 
 [editor.inline-diagnostics]
-cursor-line = "error"
+cursor-line = "warning"
 
 [keys.normal]
 j = "move_char_left"
