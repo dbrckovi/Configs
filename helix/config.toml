@@ -1,4 +1,3 @@
-#try this: https://github.com/helix-editor/helix/issues/3367
 theme = "brc_vs"
 
 [editor]
@@ -16,9 +15,12 @@ display-inlay-hints = true
 [editor.file-picker]
 hidden = false
 
+# [editor.whitespace]
+# render = "all"
+
 [editor.indent-guides]
 render = true
-character = "│" # ╎ ┆ ╏ ┊ │
+character = "│"
 skip-levels = 1
 
 [editor.inline-diagnostics]
@@ -32,6 +34,11 @@ i = "move_visual_line_up"
 h = "insert_mode"
 "A-i" = "page_up"
 "A-k" = "page_down"
+"ret" = "insert_newline"
+
+[keys.normal.g]
+s = "goto_line_start"
+j = "goto_first_nonwhitespace"
 
 [keys.select]
 j = "move_char_left"
