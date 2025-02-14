@@ -10,6 +10,23 @@ insert = "bar"
 normal = "underline"
 select = "underline"
 
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.file-picker]
+hidden = false
+
+# [editor.whitespace]
+# render = "all"
+
+[editor.indent-guides]
+render = true
+character = "│" # ╎ ┆ ╏ ┊ │
+skip-levels = 1
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+
 [keys.normal]
 j = "move_char_left"
 k = "move_visual_line_down"
