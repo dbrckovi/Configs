@@ -1,3 +1,9 @@
+# INSERT MODE:
+# Ctrl+x opens completion list, but it's not listed in help
+# WHILE METHOD DESCRIPTION VISIBLE WITH MULTIPLE OVERLOADS:
+# Alt+n - next overload
+# Alt+p - previous overload
+
 theme = "brc_vs"
 
 [editor]
@@ -53,5 +59,4 @@ l = "move_char_right"
 i = "move_visual_line_up"
 
 [keys.insert]
-# Ctrl+x opens completion list, but it's not listed in help
 "tab" = "insert_tab"
