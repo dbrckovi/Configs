@@ -47,6 +47,7 @@ d = "delete_selection_noyank"
 esc = ["collapse_selection", "keep_primary_selection"]
 "C-b" = "jump_backward"
 "C-i" = "jump_forward"
+F1 = "goto_word"
 
 [keys.normal.g]
 s = "goto_line_start"
