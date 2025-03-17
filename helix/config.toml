@@ -63,6 +63,7 @@ A-k = "page_down"
 C-j = "goto_first_nonwhitespace"
 C-l = "goto_line_end"
 "tab" = "no_op"
+"H" = "join_selections"
 
 [keys.normal.g]
 s = "goto_line_start"
