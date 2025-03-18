@@ -18,6 +18,7 @@ select = "underline"
 
 [editor.lsp]
 display-inlay-hints = true
+auto-signature-help = false
 
 # [editor.whitespace]
 # render = "all"
@@ -64,6 +65,7 @@ C-j = "goto_first_nonwhitespace"
 C-l = "goto_line_end"
 "tab" = "no_op"
 "H" = "join_selections"
+"X" = "increment"
 
 [keys.normal.g]
 s = "goto_line_start"
@@ -78,3 +80,4 @@ d = "delete_selection_noyank"
 
 [keys.insert]
 "tab" = "insert_tab"
+C-c = "signature_help"
