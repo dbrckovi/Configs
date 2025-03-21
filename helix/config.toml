@@ -66,6 +66,8 @@ C-l = "goto_line_end"
 "tab" = "no_op"
 "H" = "join_selections"
 "X" = "increment"
+"S-i" = "scroll_up"
+"S-k" = "scroll_down"
 
 [keys.normal.g]
 s = "goto_line_start"
