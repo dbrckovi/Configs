@@ -16,3 +16,6 @@ inherits = "default"
 "operator" = "#b4b4b4"
 "constant.numeric" = "#b5cea5"
 "constant.builtin" = "#4a9cd6"
+
+"markup.heading" = "#11FFAA"
+"markup.heading.2" = "#FF1144"
