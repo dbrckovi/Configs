@@ -1,6 +1,6 @@
 inherits = "default"
 
-"ui.background" = { fg = "#FFFFFF", bg = "#312249"}
+"ui.background" = { fg = "#FFFFFF", bg = "#2B1D3A"}
 "type" = "#4ec9b0"
 "type.builtin" = "#4a9cd6"
 "type.enum" = "#00ff00"
