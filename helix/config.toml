@@ -52,7 +52,7 @@ h = "insert_mode"
 "A-d" = "delete_selection"
 d = "delete_selection_noyank"
 esc = ["collapse_selection", "keep_primary_selection"]
-F1 = "goto_word"
+C-q = "goto_word"
 C-s = ":write"
 C-a = ":write-all"
 C-u = "undo"
@@ -79,6 +79,9 @@ k = "extend_visual_line_down"
 l = "extend_char_right"
 i = "extend_visual_line_up"
 d = "delete_selection_noyank"
+[keys.select.g]
+s = "goto_line_start"
+j = "goto_first_nonwhitespace"
 
 [keys.insert]
 "tab" = "insert_tab"
