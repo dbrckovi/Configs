@@ -68,8 +68,11 @@ C-l = "goto_line_end"
 "X" = "increment"
 "S-i" = "scroll_up"
 "S-k" = "scroll_down"
+"C-f" = "search"
+"A-f" = "global_search" 
 
 [keys.normal.g]
+
 s = "goto_line_start"
 j = "goto_first_nonwhitespace"
 
