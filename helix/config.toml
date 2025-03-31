@@ -70,6 +70,10 @@ C-l = "goto_line_end"
 "S-k" = "scroll_down"
 "C-f" = "search"
 "A-f" = "global_search" 
+"+" = "increment"
+"-" = "decrement"
+"C-c" = "yank_to_clipboard"
+"C-v" = "paste_clipboard_before"
 
 [keys.normal.g]
 
@@ -82,6 +86,9 @@ k = "extend_visual_line_down"
 l = "extend_char_right"
 i = "extend_visual_line_up"
 d = "delete_selection_noyank"
+"C-c" = "yank_to_clipboard"
+"C-v" = "paste_clipboard_before"
+
 [keys.select.g]
 s = "goto_line_start"
 j = "goto_first_nonwhitespace"
