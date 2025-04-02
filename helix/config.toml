@@ -8,7 +8,7 @@ theme = "brc_vs"
 
 [editor]
 true-color = true
-line-number = "relative"
+# line-number = "relative"
 auto-pairs = false
 
 [editor.cursor-shape]
