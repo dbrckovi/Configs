@@ -76,9 +76,14 @@ C-l = "goto_line_end"
 "C-v" = "paste_clipboard_before"
 
 [keys.normal.g]
-
 s = "goto_line_start"
 j = "goto_first_nonwhitespace"
+
+[keys.normal.C-w]
+j = "jump_view_left"
+k = "jump_view_down"
+l = "jump_view_right"
+i = "jump_view_up"
 
 [keys.select]
 j = "extend_char_left"
