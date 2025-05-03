@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/dbrckovi/Scripts/Keyboard/run_all.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Run main programs
+Comment=Runs all important programs (put this in ~/.config/autostart)
