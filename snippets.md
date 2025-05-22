@@ -6,3 +6,6 @@ case "$TERM" in
 esac
 ~~~
 
+# odin
+> Installation: https://odin-lang.org/docs/install/
+> Lsp: https://github.com/DanielGavin/ols
