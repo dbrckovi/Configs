@@ -8,13 +8,16 @@ theme = "brc_vs"
 
 [editor]
 true-color = true
-# line-number = "relative"
+line-number = "relative"
 auto-pairs = false
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "underline"
 select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-modification-indicator", "file-name", "file-type"]
 
 [editor.lsp]
 display-inlay-hints = true
@@ -101,3 +104,4 @@ j = "goto_first_nonwhitespace"
 [keys.insert]
 "tab" = "insert_tab"
 C-c = "signature_help"
+"A-x" = "normal_mode"
